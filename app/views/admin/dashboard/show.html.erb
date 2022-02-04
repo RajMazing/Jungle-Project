@@ -1,15 +1,31 @@
+# <header class="page-header">
+#   <h1>Admin Dashboard</h1>
+# </header>
+
+# <div class="dashboard">
+#   <div class="dashboard__info">
+#     <h2 class="dashboard__title"><%= link_to 'Product Count', admin_products_path %></h2>
+#     <h3 class="dashboard__count"><%= @product_count %></h3>
+#   </div>
+#   <div class="dashboard__info">
+#     <h2 class="dashboard__title"> <%= link_to 'Category Count', admin_products_path %> </h2>
+#     <h3 class="dashboard__count"><%= @category_count %></h3>
+#   </div>
+# </div>
+
+
 <header class="page-header">
-  <h1>Admin Dashboard</h1>
+  <h1>Admin &raquo; Dashboard</h1>
 </header>
 
-<div class="dashboard">
-  <div class="dashboard__info">
-    <h2 class="dashboard__title"><%= link_to 'Product Count', admin_products_path %></h2>
-    <h3 class="dashboard__count"><%= @product_count %></h3>
-  </div>
-  <div class="dashboard__info">
-    <h2 class="dashboard__title"> <%= link_to 'Category Count', admin_products_path %> </h2>
-    <h3 class="dashboard__count"><%= @category_count %></h3>
-  </div>
-</div>
+<table class="table table-striped table-bordered h4">
+  <tr>
+    <td>Number of <%= link_to 'products', admin_products_path %> in the store</td> 
+    <td><%= @product_count %></td> 
+  </tr>
+  <tr>
+    <td>Number of <%= link_to 'categories', admin_categories_path %> in the store</td> 
+    <td><%= @category_count %></td> 
+  </tr>
+</table>
 
