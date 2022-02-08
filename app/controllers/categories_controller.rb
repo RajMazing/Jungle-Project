@@ -1,8 +1,7 @@
 class CategoriesController < ApplicationController
 
-  def show
+  def show 
     @category = Category.find(params[:id])
-    @products = @category.products.order(created_at: :desc)
+    @products = Product.where(category_id:params[:id])
   end
-
 end
