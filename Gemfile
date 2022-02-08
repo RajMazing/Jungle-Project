@@ -65,8 +65,15 @@ group :production do
   gem 'rails_12factor'
 end
 
+<<<<<<< HEAD
 group :test do 
   gem 'capybara'
   gem 'poltergeist'
   gem 'database_cleaner'
 end
+=======
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+  # ...
+end
+>>>>>>> 320e6dee5e24733a8c24658f505da051233b6def
