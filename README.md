@@ -2,9 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-# Screenshots
+# Screenshots and GIFS
 
-![]()
+![GIF 1](https://github.com/RajMazing/Jungle-Project/blob/master/docs/GIFS/Jungle1.gif)
+![GIF 2](https://github.com/RajMazing/Jungle-Project/blob/master/docs/GIFS/Jungle2.gif)
+![GIF 3](https://github.com/RajMazing/Jungle-Project/blob/master/docs/GIFS/Jungle3.gif)
+![GIF 4](https://github.com/RajMazing/Jungle-Project/blob/master/docs/GIFS/Jungle4.gif)
+
+
 
 ## Additional Steps for Apple M1 Machines
 
